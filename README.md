@@ -1,47 +1,29 @@
 
-# Stroke Prediction Model
+# Liquor Licences and Close-Proximity Population Demographics  
+
 
 ## Overview
-According to the World Health Organization (WHO) stroke is the 2nd leading cause of death globally, responsible for approximately 11% of total deaths.  It has personally affected members of this Data Analytics team, which brings a personal motivation to learn more.
+
+The CDC publishes a fascinating dataset detailing the racial/ethic percentages of persons living within 0.25 miles of an establishment with a liquor license.   
 
 
-Doctors have described a stroke as an attack on the brain.  However, there are **two types very different types of stroke**: 
-
-1. Ischaemic stroke (a blockage) and, 
-2. Hemorrhagic stroke (a bleed)
-
-![stroke1](./Images/TypesOfStroke2017.png)
-
-Photo from [https://enableme.org.au/](https://enableme.org.au/Resources/Types-of-stroke)
-
-**Disclaimer:** This dataset does not distinguish which type of stroke the obeserved patient suffered.
-
+Layering additional demographic data including income levels, proverty indicators
 
 This project **hopes to answer the following questions**:
 
-* What are the most important attributes in predicting stroke; who is most prone?
-* What is the correlation, if any, between BMI and having a stroke?
-* What is the correlation, if any, between smoking (or not) and having a stroke?
-* Is one gender over the other more probable to having a stroke?
+* Is there a racial or ethnic population more likely to live within a quarter mile of a liquor licensed establishment?
+* What is the racial or ethnic breakdown of populations within a quarter mile of a liquor licensed establishment? 
 
-Ultimately, the goal is to build a machine learning model (classification algorithm)that can **predict the likelihood of someone having a stroke**, given specific factors, like gender, age, various diseases, and smoking status, **with an accuracy of over 80%**.  
+Ultimately, the goal is to build a machine learning model (using logistical regression)that can **predict the likelihood of a liquor outlet is within a quarter miles of a person's home based on their race and location**. 
 
 ## Data Source
-This data source can be found on [kaggle.com](Data:https://www.kaggle.com/fedesoriano/stroke-prediction-dataset3) and was last updated on 01.26.2021.  
+There are 3 data sources used to build this model:
 
-This dataset contains 5,000 records 11 input data points and 1 binary outcome: stroke (1) or no stroke (0):
+* Primary data source, xxxx comes from 
 
-1. id	
-2. gender	
-3. age	
-4. hypertension	
-5. heart_disease	
-6. ever_married	
-7. work_type	
-8. Residence_type	
-9. avg_glucose_level	
-10. bmi	
-11. smoking_status
+This dataset contains
+
+
 
 
 ## GitHub and Communication Protocol
@@ -49,12 +31,13 @@ This dataset contains 5,000 records 11 input data points and 1 binary outcome: s
 ### GitHub
 In order to accomplish this massive task, this team will be utilizing GitHUb to collaborate.  In addition to our main (or master branch), this repository contains the following branches: 
 
-* ```devin_branch```
-* ```jackie_data_analytics```
-* ```maggies_data_analysis```
-* ```nazanin-data-analytics```
+* Triangle or Machine Learning Role```devin_branch```
+* X or Technology ```jackie_data_analytics```
+* Square or GitHub Management Role```maggies_data_analysis```:
+* Circle or Dtaabase Role```nazanin-data-analytics```Role
 
-Each week, our team will have a minimum of 4 commits each week:
+Each week, our team will have a minimum of 4 commits each week.  For Week 1:
+
 
 
 
@@ -63,15 +46,26 @@ In addition to utilizing GitHub and our Slack channel, this team will meet weekl
 
 Each team member has a role to play and for **Week 1** they are: 
 
-* **Circle Role (Database)**:  Nazanin 
-* **Triangle Role (Machine Learning)**  Devin 
+* **Circle Role (Database)**:  Nazanin Tavakoli
+* **Triangle Role (Machine Learning)**  Devin Hollister 
 * **Square Role (GitHub)**: Maggie McPhail 
-* **X Role (Technology)**: Jackie 
+* **X Role (Technology)**: Jackie Chitsanga
 
-
+Once a team member is ready with their portion of the assignment, the Square will be notified, create a pull request and resolve any resulting conflicts. The rest of the team will be notified via Slack when to pull the updated main branch.
+   
 ## Database
 
-First step in creating this predictive model and getting the answers we are looking for, is to import, clean, and preprocess our dataset.  The following **technologies**, modules, and functions within **Python** will be used to prepare the dataset for modeling:
+First step in creating this predictive model and getting the answers we are looking for, is to import the raw data into SQL and create a schema outlining the table structure and interconnections.
+
+This is done using **PostGres** and **SQL**; ERD schmatic below: 
+
+
+
+Once the team is ready to start analyzing, the data is connected to a **Python** Notebook to be read in. 
+ 
+clean, and preprocess our dataset.  That's where the fun begins! 
+
+The following **technologies**, modules, and functions within **Python** will be used to read in, prepare and transform the data: 
 
 * pandas
 * sklearn.model_selection: ```train_test_split```
@@ -81,9 +75,10 @@ First step in creating this predictive model and getting the answers we are look
 
 ## Machine Learning Model
 Once the dataset is cleaned and transformed, we can start compiling, training, and evaluating the model.  
+
 * tensorflow: keras
 
 ## Dashboard Presentation
-The dashboard will be built using **Tableau**.  Look out for our findings in the coming weeks!
+The dashboard will be built using **Tableau**.  Visualizations to tell this story will including graphs, heat maps and interactive predictions.  Look out for our findings in the coming weeks!
 
 
