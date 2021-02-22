@@ -78,7 +78,7 @@ For Week 1:
 
 
 ### Communication Protocol
-In addition to utilizing GitHub and our Slack channel, this team will meet weekly during and/or before normal class times on **Wednesday evening** as well as via zoom as needed.
+In addition to utilizing GitHub and our Slack channel, this team will meet weekly during and/or before normal class times on **Monday and Wednesday evening** as well as via zoom as needed.
 
 Each team member has a role to play and for **Week 1** they are: 
 
