@@ -72,9 +72,6 @@ In order to accomplish this massive task, this team will be utilizing GitHUb to 
 * Database (Circle):```nazanin-data-analytics```
 
 Each week, our team will have a minimum of 4 commits per member.  
-For Week 1:
-
-![logo](./Images/weekly_commits.png)
 
 
 ### Communication Protocol
