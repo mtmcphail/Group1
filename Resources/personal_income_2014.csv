@@ -1,4 +1,4 @@
-GeoFIPS,GeoName,Region,Table,LineCode,Per Personal income ,Total Personal income ,Population 
+GeoFIPS,GeoName,Region,Table,LineCode,Per capita personal income (dollars) 2/,Personal income (thousands of dollars),Population (persons) 1/
 6001,"Alameda, CA",8,CA1,3,56261,90631392,1610921
 6003,"Alpine, CA",8,CA1,3,62410,69650,1116
 6005,"Amador, CA",8,CA1,3,39504,1451465,36742
